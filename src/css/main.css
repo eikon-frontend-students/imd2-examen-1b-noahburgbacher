@@ -94,13 +94,6 @@ video {
   }
 }
 
-/* .page-container :nth-child(5) .exercise-content {
-  color: blue;
-}
-.page-container :nth-child(7) .exercise-content {
-  color: rgb(0, 255, 47);
-} */
-
 /* 02. Centrer horizontalement */
 
 .calltoaction {
@@ -151,8 +144,16 @@ video {
 
 /* 04. Intégration */
 
+.background {
+  background: #f7fafd;
+  display: flex;
+  width: 634px;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+}
+
 .carte {
-  margin: 50px auto;
   display: flex;
   width: 270px;
   flex-direction: column;
