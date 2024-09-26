@@ -75,6 +75,32 @@ video {
 
 /* 01. Sélecteurs CSS */
 
+.page-container :nth-child(3) .exercise-content {
+  h3,
+  h4 {
+    font-family: Libre Baskerville;
+  }
+  .section-sport h4 {
+    color: #78290f;
+  }
+  .section-culture h4 {
+    color: #15616d;
+  }
+  .section-regions .first {
+    font-weight: bold;
+  }
+  .highlighted.first {
+    background-color: #faf0ca;
+  }
+}
+
+/* .page-container :nth-child(5) .exercise-content {
+  color: blue;
+}
+.page-container :nth-child(7) .exercise-content {
+  color: rgb(0, 255, 47);
+} */
+
 /* 02. Centrer horizontalement */
 
 .calltoaction {
