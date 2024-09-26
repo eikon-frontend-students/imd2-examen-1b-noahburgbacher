@@ -136,6 +136,8 @@ video {
   padding: 20px;
   border-radius: 10px;
   background: #669bbc;
+  display: flex;
+  align-items: center;
 }
 
 .button {
@@ -144,6 +146,7 @@ video {
   background: #780000;
   color: #fdf0d5;
   text-align: center;
+  padding: 20px 0;
 }
 
 /* 04. Intégration */
