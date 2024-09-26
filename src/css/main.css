@@ -109,15 +109,22 @@ video {
   background: #fdf0d5;
   border: 1px solid #c1121f;
   text-transform: uppercase;
+  margin-left: auto;
+  margin-right: auto;
 }
-
+.calltoaction-container {
+  display: flex;
+}
 .link {
-  width: 250px;
-  padding: 15px 0;
+  padding: 15px 45px;
   background: #003049;
   color: #fdf0d5;
   font-family: "Libre Baskerville";
   text-transform: uppercase;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
 }
 
 /* 03. Centrer verticalement */
